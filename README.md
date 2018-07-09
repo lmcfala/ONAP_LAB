@@ -16,6 +16,31 @@ It is based on [ OOM User Guide ](http://onap.readthedocs.io/en/latest/submodule
 - More minimum requirements can be found examining the Playbooys.
 - All use cases required ONAP Base Deployment ( unless indicated at sub-project section )
 
+====================================
+sudo yum update && sudo yum install git -y
+
+Install the OpenStack CLI
+https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html
+
+pip install python-openstackclient
+pip install python-novaclient
+
+   24  sudo pip install python-openstackclient
+   25  sudo pip install python-novaclient
+   26  sudo pip install python-glenceclient
+   27  sudo pip install python-glanceclient
+   28  sudo pip install python-neutronclient
+   29  hostory
+   30  history
+   31  sudo pip install python-heatclient
+   
+Clone the git:
+(no sudo) git clone https://github.com/lmcfala/ONAP_LAB.git 
+
+From Horizon GUI source the scripts. 
+nova list
+openstack stack list
+=========================================
 ## ONAP Base Deployment
 
 Source your authentication credentials:
