@@ -118,7 +118,7 @@ It shows the status of Pods and Containers at Kubernetes level.
 
 ## To Remove
 
-	openstack stack delete ONAP-stack -y
+	openstack stack delete ONAP-stack --y
 	
 You can also delete the stack at the Horizon Dashboard.
 
