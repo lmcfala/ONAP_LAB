@@ -20,7 +20,6 @@
   git:
     repo: https://git.onap.org/oom/
     dest: /mnt/srv/oom
-    version: amsterdam 
     clone: yes
 
 - name: Start Helm Server
