@@ -19,7 +19,7 @@
   become: yes
   git:
     repo: https://git.onap.org/oom/
-    version: 2.0.0-ONAP
+    version: amstredam
     dest: /mnt/srv/oom
     clone: yes
 
