@@ -19,7 +19,7 @@
   become: yes
   git:
     repo: https://git.onap.org/oom/
-    version: amsterdam
+    version: beijing
     dest: /mnt/srv/oom
     clone: yes
 
