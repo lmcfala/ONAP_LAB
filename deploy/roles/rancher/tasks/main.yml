@@ -1,0 +1,9 @@
+---
+- name: Install Rancher
+  docker_container:
+    name: rancher
+    image: rancher/server:{{ rancher_version }}
+    restart_policy: unless-stopped
+    detach: yes
+    ports:
+     - "8080:8080"
